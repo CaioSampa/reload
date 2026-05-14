@@ -1,21 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: casampai <casampai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/13 16:22:12 by casampai          #+#    #+#             */
-/*   Updated: 2026/05/14 17:37:25 by casampai         ###   ########.fr       */
+/*   Created: 2026/05/14 18:57:41 by casampai          #+#    #+#             */
+/*   Updated: 2026/05/14 19:09:24 by casampai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_recursive_factorial(int nb)
+int ft_strcmp(char *s1, char *s2)
 {
-	if(nb == 1 || nb == 0)
-		return (1);
-	if(!nb)
-		return (0);
-	
-	return nb * ft_recursive_factorial(nb - 1);
+	while (*s1 && (*s1 == *s2))
+	{
+		s1++;
+		s2++;
+	}
+	return ((unsigned char)*s1 - (unsigned char)*s2);
 }
