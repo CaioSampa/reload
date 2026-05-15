@@ -1,1 +1,3 @@
-find . -name "*.sh" -printf "%f" | sed 's/\.[^.]*$//'
+#!/bin/sh
+
+find . -name "*.sh" -printf "%f \n" | sed 's/\.[^.]*$//'

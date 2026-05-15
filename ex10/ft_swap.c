@@ -6,15 +6,15 @@
 /*   By: casampai <casampai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 15:34:44 by casampai          #+#    #+#             */
-/*   Updated: 2026/05/13 15:41:15 by casampai         ###   ########.fr       */
+/*   Updated: 2026/05/15 12:35:13 by casampai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void    ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-    int tmp;
-    
-    tmp = *a;
-    *a = *b;
-    *b = tmp;
+	int	tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
 }

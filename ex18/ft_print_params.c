@@ -6,31 +6,25 @@
 /*   By: casampai <casampai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/14 19:10:15 by casampai          #+#    #+#             */
-/*   Updated: 2026/05/14 19:17:50 by casampai         ###   ########.fr       */
+/*   Updated: 2026/05/15 18:25:00 by casampai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void	ft_putchar(char c);
 
-void    ft_putchar(char c);
-
-void    ft_putchar(char c)
+int	main(int argc, char**argv)
 {
-    write(1, &c, 1);
-}
+	int	count;
 
-int main(int argc, char** argv)
-{
-    int count;
-
-    count = 0;
-    while (++count != argc)
-    {
-        while(*argv[count])
-        {
-            ft_putchar(*argv[count]);
-            argv[count]++;
-        }
-        write(1, "\n", 1);
-    }
+	count = 0;
+	while (++count != argc)
+	{
+		while (*argv[count])
+		{
+			ft_putchar(*argv[count]);
+			argv[count]++;
+		}
+		ft_putchar('\n');
+	}
+	return (0);
 }

@@ -6,11 +6,11 @@
 /*   By: casampai <casampai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/14 18:57:41 by casampai          #+#    #+#             */
-/*   Updated: 2026/05/14 19:09:24 by casampai         ###   ########.fr       */
+/*   Updated: 2026/05/15 12:41:37 by casampai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strcmp(char *s1, char *s2)
+int	ft_strcmp(char *s1, char *s2)
 {
 	while (*s1 && (*s1 == *s2))
 	{

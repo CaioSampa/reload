@@ -6,11 +6,11 @@
 /*   By: casampai <casampai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 15:33:36 by casampai          #+#    #+#             */
-/*   Updated: 2026/05/13 15:35:01 by casampai         ###   ########.fr       */
+/*   Updated: 2026/05/15 12:34:41 by casampai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void    ft_ft(int *nbr)
+void	ft_ft(int *nbr)
 {
-    *nbr = 42;
+	*nbr = 42;
 }

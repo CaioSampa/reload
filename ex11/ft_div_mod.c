@@ -6,12 +6,12 @@
 /*   By: casampai <casampai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 15:36:26 by casampai          #+#    #+#             */
-/*   Updated: 2026/05/13 15:37:59 by casampai         ###   ########.fr       */
+/*   Updated: 2026/05/15 12:35:33 by casampai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void    ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-    *div = a / b;
-    *mod = a % b;
+	*div = a / b;
+	*mod = a % b;
 }

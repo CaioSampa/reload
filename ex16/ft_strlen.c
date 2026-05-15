@@ -6,16 +6,16 @@
 /*   By: casampai <casampai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/14 18:54:03 by casampai          #+#    #+#             */
-/*   Updated: 2026/05/14 18:57:12 by casampai         ###   ########.fr       */
+/*   Updated: 2026/05/15 12:41:30 by casampai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int len;
-    
-    len = 0;
-    while(*str++)
-        ++len;
-    return (len);
+	int	len;
+
+	len = 0;
+	while (*str++)
+		++len;
+	return (len);
 }
